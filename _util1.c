@@ -75,6 +75,5 @@ char *_getenv(const char *name, char **_environ)
 			break;
 		}
 	}
-
 	return (ptr_env + mov);
 }

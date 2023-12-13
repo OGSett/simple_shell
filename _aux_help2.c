@@ -39,3 +39,4 @@ void aux_help_alias(void)
 	help = "\tDefine or display aliases.\n ";
 	write(STDOUT_FILENO, help, _strlen(help));
 }
+
